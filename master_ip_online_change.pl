@@ -37,10 +37,10 @@ my (
   $new_master_ip,        $new_master_port,          $new_master_user,
   $new_master_password,  $new_master_ssh_user,
 );
-my $dr_vip = '10.211.13.250';
-my $rs_vip = '10.211.13.250';
-my $lvs1 = '10.211.13.17';
-my $lvs2 = '10.211.13.18';
+my $dr_vip = '10.1.13.250';
+my $rs_vip = '10.1.13.250';
+my $lvs1 = '10.1.13.17';
+my $lvs2 = '10.1.13.18';
 my $ssh_user = 'root';
 GetOptions(
   'command=s'                => \$command,
